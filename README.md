@@ -3,7 +3,7 @@ Home Pages
 
 **Demo: [URL](https://palmatus.github.io/)**
 
-![alt tag](img\image.png)
+![alt tag](img/image.png "Homepage preview")
 
 **Notes:**
 
