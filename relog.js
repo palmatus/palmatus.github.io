@@ -73,3 +73,19 @@ function año() {
     var year = today.getFullYear();
     document.getElementById('año').innerHTML = year
 }
+
+// Tabular
+function checkTabPress(e) {
+    "use strict";
+
+    e = e || event;
+    var activeElement;
+    if (e.keyCode == 9) {.
+        activeElement = document.activeElement;
+        if (activeElement.tagName.toLowerCase() == 'a')
+            alert(activeElement.href);
+    }
+}
+
+var body = document.querySelector('body');
+body.addEventListener('keyup', checkTabPress);
