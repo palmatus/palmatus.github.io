@@ -31,19 +31,6 @@
                 <form action="https://www.google.com/search" method="GET">
                     <input type='search' placeholder="Buscar..." id="q" name="q" autofocus="true" autocomplete="off" tabindex="1">
                 </form>
-                <script>
-        // Asegurarse de que el campo de búsqueda recibe el foco al cargar la página
-        window.onload = function() {
-            document.getElementById("q").focus();
-        };
-
-        // Escuchar el evento de tabulación y asegurarse de que el campo de búsqueda tiene el foco
-        document.addEventListener("keydown", function(event) {
-            if (event.key === "Tab") {
-                document.getElementById("q").focus();
-            }
-        });
-    </script>
             </div>
             <div class="url_info">
                 <div class="columna">
