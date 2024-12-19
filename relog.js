@@ -78,7 +78,7 @@ function año() {
 function checkTabPress(e) {
     "use strict";
     // pick passed event of global event object
-    e = e || event;
+    e = e ||;
     var activeElement;
     if (e.keyCode == 9) {
         // Here read the active selected link.
